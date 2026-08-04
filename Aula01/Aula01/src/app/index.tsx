@@ -1,9 +1,10 @@
 import { Text, View, StyleSheet } from "react-native";
-
+import LogoSpotify from '../app/components/LogoSpotify';
 export default function Index() {
   return (
     <View style={styles.container}>
       <Text>Spotify</Text>
+      <LogoSpotify />
     </View>
   );
 };
@@ -12,7 +13,6 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#00ff4c',
+    backgroundColor: '#000000',
   },
 });
-
