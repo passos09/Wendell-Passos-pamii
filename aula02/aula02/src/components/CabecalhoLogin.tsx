@@ -1,13 +1,15 @@
-import { Heading, Text, VStack } from "@gluestack-ui/themed";
+import { Heading } from "@/components/ui/heading";
+import { Text } from "@/components/ui/text";
+import { VStack } from "@/components/ui/vstack";
 
 export default function CabecalhoLogin() {
   return (
-    <VStack mb="$2">
-      <Heading color="$white" size="2xl" textAlign="center" mb="$2">
+    <VStack className="mb-2">
+      <Heading className="text-white text-2xl font-bold text-center mb-2">
         Boas-vindas de volta!
       </Heading>
 
-      <Text color="$trueGray400" size="sm" textAlign="center" mb="$6">
+      <Text className="text-neutral-400 text-sm text-center mb-6">
         Estamos muito felizes em te ver novamente!
       </Text>
     </VStack>
