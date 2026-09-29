@@ -45,6 +45,13 @@ export default function FormularioLogin() {
           Entrar
         </ButtonText>
       </Button>
-    </VStack>
+
+      <Text className="text-gray-400 text-xs font-medium mt-1">
+    Precisando de uma conta?{" "}
+      <Text className="text-blue-400 text-xs font-medium">
+        Registre-se
+      </Text>
+     </Text>
+  </VStack>
   );
 }
